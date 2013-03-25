@@ -6,22 +6,25 @@ module.exports = (grunt) ->
     pkg: grunt.file.readJSON('package.json')
 
     coffee:
-      glob_to_multiple:
-        {
+      compile:
         options:
           bare: true
+        files:
+          'Gruntfile.js': 'Gruntfile.coffee'
+      glob_to_multiple:
+        options:
+            bare: true
         expand: true
         cwd: 'coffee'
         src: ['*.coffee']
         dest: 'tasks'
         ext: '.js'
-        }
 
     concat:
       options:
         stripBanners: true
         banner: '/* <%= pkg.name %> - v<%= pkg.version %> - ' +
-                '<%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        '<%= grunt.template.today("yyyy-mm-dd") %> */\n'
       dist:
         src: ['tasks/yukkuroid.js']
         dest: 'tasks/yukkuroid.js'
