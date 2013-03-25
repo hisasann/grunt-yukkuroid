@@ -1,0 +1,26 @@
+{
+  "name": "grunt-yukkuroid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": "",
+  "keywords": [
+    "gruntplugin"
+  ],
+  "author": {
+    "name": "hisasann",
+    "url": "http://hisasann.com/"
+  },
+  "license": "BSD",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-concat": "*"
+  }
+}
