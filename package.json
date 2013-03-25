@@ -1,7 +1,8 @@
 {
   "name": "grunt-yukkuroid",
   "version": "0.0.0",
-  "description": "",
+  "homepage": "https://github.com/hisasann/grunt-yukkuroid",
+  "description": "BoyomiChan should inform you of the completion of the compilation grunt",
   "scripts": {
     "test": "grunt test"
   },
@@ -13,6 +14,13 @@
     "name": "hisasann",
     "url": "http://hisasann.com/"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hisasann/grunt-yukkuroid"
+  },
+  "bugs": {
+    "url": "https://github.com/hisasann/grunt-yukkuroid/issues"
+  },
   "license": "BSD",
   "main": "Gruntfile.js",
   "devDependencies": {
@@ -22,5 +30,10 @@
     "grunt-contrib-coffee": "*",
     "grunt-contrib-clean": "*",
     "grunt-contrib-concat": "*"
-  }
+  },
+  "keywords": [
+    "gruntplugin",
+    "yukkuroid"
+  ],
+  "readmeFilename": "README.md"
 }
