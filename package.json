@@ -1,6 +1,6 @@
 {
   "name": "grunt-yukkuroid",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/hisasann/grunt-yukkuroid",
   "description": "BoyomiChan should inform you of the completion of the compilation grunt",
   "scripts": {
