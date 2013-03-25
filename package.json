@@ -6,10 +6,6 @@
   "scripts": {
     "test": "grunt test"
   },
-  "repository": "",
-  "keywords": [
-    "gruntplugin"
-  ],
   "author": {
     "name": "hisasann",
     "url": "http://hisasann.com/"
