@@ -1,4 +1,4 @@
-/* grunt-yukkuroid - v0.0.0 - 2013-03-25 */
+/* grunt-yukkuroid - v0.0.2 - 2013-04-02 */
 module.exports = function(grunt) {
   'use strict';
   var objc;
